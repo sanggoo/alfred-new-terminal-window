@@ -31,7 +31,76 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4EE21C5D-951D-45C0-9324-8BB7970ECB93</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9A15FFE2-DCAE-4ED9-A69C-1096138C6DA5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>79A95542-8FA7-4417-82E5-C6130364D596</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>535A3901-C929-4D7D-8693-065D295A6E39</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>369F2335-040A-482A-B8AD-8A31FAAB3B05</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F5AA9822-2B99-4E73-AFE8-489815285043</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9C0A2594-A434-439C-9357-B46C41873567</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>369F2335-040A-482A-B8AD-8A31FAAB3B05</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F5AA9822-2B99-4E73-AFE8-489815285043</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BB561CAB-3FBC-4266-BB0B-F442728E3949</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -135,25 +204,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ㅅㅈ</string>
+				<key>subtext</key>
+				<string>Default profile</string>
+				<key>text</key>
+				<string>New iTerm window</string>
+				<key>withspace</key>
 				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>osascript iterm_new.scpt "{query}" "cdf"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>F5AA9822-2B99-4E73-AFE8-489815285043</string>
+			<string>BB561CAB-3FBC-4266-BB0B-F442728E3949</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -201,6 +268,78 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>F97EB9AC-260D-485E-955B-22F611F558D5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>osascript iterm_new.scpt "{query}" "cdf"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F5AA9822-2B99-4E73-AFE8-489815285043</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ㅅㅈ</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python3 tw.py {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Choose profile</string>
+				<key>title</key>
+				<string>New iTerm window</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>9C0A2594-A434-439C-9357-B46C41873567</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -271,6 +410,27 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ㅅㅅㅈ</string>
+				<key>subtext</key>
+				<string>Terminal</string>
+				<key>text</key>
+				<string>New Terminal window</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4EE21C5D-951D-45C0-9324-8BB7970ECB93</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -279,51 +439,72 @@
 		<key>2218857E-BE59-4104-8D07-0C676227612A</key>
 		<dict>
 			<key>xpos</key>
-			<real>240</real>
+			<real>175</real>
 			<key>ypos</key>
-			<real>385</real>
+			<real>500</real>
 		</dict>
 		<key>369F2335-040A-482A-B8AD-8A31FAAB3B05</key>
 		<dict>
 			<key>xpos</key>
-			<real>500</real>
+			<real>530</real>
 			<key>ypos</key>
 			<real>85</real>
+		</dict>
+		<key>4EE21C5D-951D-45C0-9324-8BB7970ECB93</key>
+		<dict>
+			<key>xpos</key>
+			<real>175</real>
+			<key>ypos</key>
+			<real>625</real>
 		</dict>
 		<key>535A3901-C929-4D7D-8693-065D295A6E39</key>
 		<dict>
 			<key>xpos</key>
-			<real>240</real>
+			<real>175</real>
 			<key>ypos</key>
-			<real>85</real>
+			<real>20</real>
 		</dict>
 		<key>79A95542-8FA7-4417-82E5-C6130364D596</key>
 		<dict>
 			<key>xpos</key>
-			<real>500</real>
+			<real>530</real>
 			<key>ypos</key>
-			<real>455</real>
+			<real>620</real>
 		</dict>
 		<key>9A15FFE2-DCAE-4ED9-A69C-1096138C6DA5</key>
 		<dict>
 			<key>xpos</key>
-			<real>500</real>
+			<real>530</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>500</real>
+		</dict>
+		<key>9C0A2594-A434-439C-9357-B46C41873567</key>
+		<dict>
+			<key>xpos</key>
+			<real>175</real>
+			<key>ypos</key>
+			<real>380</real>
+		</dict>
+		<key>BB561CAB-3FBC-4266-BB0B-F442728E3949</key>
+		<dict>
+			<key>xpos</key>
+			<real>175</real>
+			<key>ypos</key>
+			<real>140</real>
 		</dict>
 		<key>F5AA9822-2B99-4E73-AFE8-489815285043</key>
 		<dict>
 			<key>xpos</key>
-			<real>500</real>
+			<real>530</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>320</real>
 		</dict>
 		<key>F97EB9AC-260D-485E-955B-22F611F558D5</key>
 		<dict>
 			<key>xpos</key>
-			<real>240</real>
+			<real>175</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>260</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
